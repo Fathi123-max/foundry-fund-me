@@ -11,7 +11,8 @@ out/
 docs/
 
 # Dotenv file
-.env
 
 lib/
 broadcast/
+config.bat
+node_modules
