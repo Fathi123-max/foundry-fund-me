@@ -9,7 +9,6 @@ import {FundMe} from "../src/FundMe.sol";
 
 /// @notice This contract facilitates funding the most recently deployed FundMe contract
 /// @dev It sends a fixed amount of ether to the FundMe contract via the fund function
-
 contract FundFundMe is Script {
     uint256 constant SEND_VALUE = .1 ether;
 
